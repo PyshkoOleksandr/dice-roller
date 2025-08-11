@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+    background-color: hsl(0, 0%, 70%);
+}
+
+#header {
+    color: hsl(322, 61%, 16%);
+}
+
+.dices-number {
+    background-color: hsl(0, 0%, 25%);
+    border-radius: 15px;
+    padding: 0.5em;
+}
+
+.content {
+    background-color: hsl(0, 0%, 50%);
+    border-radius: 15px;
+    padding: 10px 10px;
+    max-width: 360px;
+    margin: auto;
+}
+
+#roll-button {
+    border-radius: 10px;
+    font-size: 1.5em;
+    width: 60px
+}
+
+#number-input {
+    border-radius: 10px;
+    font-size: 1.5em;
+    width: calc(100% - 72px);
+}
